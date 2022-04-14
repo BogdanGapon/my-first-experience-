@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex-container">
+        <a href="#" class="header__link--logo"
+          ><img
+            src="./img/Logo.svg"
+            alt=""
+            class="header__logo"
+            height="35px"
+            width="132px"
+        /></a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__list--item">
+              <a class="header__list--item__link" href="">About</a>
+            </li>
+            <li class="header__list--item">
+              <a class="header__list--item__link" href="">Services</a>
+            </li>
+            <li class="header__list--item">
+              <a class="header__list--item__link" href="">Case Studies</a>
+            </li>
+            <li class="header__list--item">
+              <a class="header__list--item__link" href="">Careers</a>
+            </li>
+            <li class="header__list--item">
+              <a class="header__list--item__link" href="">Blog</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero__title">
+            Grow your business online.
+            <br />
+            Get. More. Leads.
+          </h1>
+          <p class="hero__text">
+            Wanna get serious into digital marketing? Then you need leads and
+            <br />this is where we can help you.
+          </p>
+          <div class="hero__button--wrapper">
+            <button class="button button-hero-left" type="button">
+              Start here
+            </button>
+            <button class="button button-hero-right" type="button">
+              Learn More
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container about__container">
+          <div class="about__title--wrapper">
+            <a href="" class="about__link">
+              <p class="about__link--text">about us</p>
+            </a>
+            <h2 class="about__title">The team behind the brand.</h2>
+            <p class="about__tittle--text">
+              Proin elementum fermentum auctor. Nulla semper, est eget congue
+              pellentesque, erat nulla molestie mi, in finibus leo nisl ac
+              lectus. Praesent non urna. Nulla congue porta lectus in laoreet.
+              Aenean pellentesque vitae metus id porttitor.
+            </p>
+            <button type="button" class="about__button">Learn More</button>
+          </div>
+          <img
+            class="about__img"
+            src="./img/about-img.jpg"
+            alt="working process"
+            width="445px"
+            height="318px"
+          />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__flex--container">
+        <div class="footer__logo-wrapper">
+          <a href="#" class="footer__link--logo"
+            ><img
+              src="./img/Logo-footer.svg"
+              alt=""
+              class="header__logo"
+              height="35px"
+              width="132px"
+          /></a>
+          <p class="footer__text">
+            Sign up for our newsletter to get latest <br />
+            news from us
+          </p>
+          <form name="footer-form">
+            <input
+              name="user-mail"
+              type="email"
+              class="footer__input"
+              placeholder="Enter your email"
+              required
+            />
+          </form>
+          <button type="submit" class="footer__btn">Submit</button>
+        </div>
+
+        <div class="footer__link-wrapper">
+          <a href=""><p class="footer__link--text">Jump to</p></a>
+          <ul>
+            <li><a href="" class="footer__item--link">About</a></li>
+            <li><a href="" class="footer__item--link">Contact</a></li>
+            <li><a href="" class="footer__item--link">Services</a></li>
+            <li><a href="" class="footer__item--link">Case Studies</a></li>
+            <li><a href="" class="footer__item--link">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
